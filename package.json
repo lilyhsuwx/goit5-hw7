@@ -3,11 +3,11 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "",
+  "homepage": "https://lilyhsuwx.github.io/goit5-hw7/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "predeploy": "npm run build", 
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview"
@@ -15,7 +15,8 @@
   "dependencies": {
     "gh-pages": "^6.3.0",
     "react": "^19.2.8",
-    "react-dom": "^19.2.8"
+    "react-dom": "^19.2.8",
+    "styled-components": "^6.5.3"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
